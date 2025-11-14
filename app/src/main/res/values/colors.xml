@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 로그인 화면 색상 -->
+    <color name="primary_blue">#155DFC</color>
+    <color name="kakao_yellow">#FEE500</color>
+    <color name="text_primary">#101828</color>
+    <color name="text_secondary">#4A5565</color>
+    <color name="text_tertiary">#6A7282</color>
+    <color name="text_quaternary">#364153</color>
+    <color name="text_hint">#717182</color>
+    <color name="input_background">#F3F3F5</color>
+    <color name="tab_background">#ECECF0</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#1A000000</color>
+</resources>

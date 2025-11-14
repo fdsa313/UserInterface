@@ -1,0 +1,599 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.material:material:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/497d9274f546012ce2969c9c9f4138fc/transformed/material-1.13.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bf1ec0d70503d5b678c0bcc3b54f6533/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f93348c56cd68e9ba1bc6c81e6e772be/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b327039788e90512e871c573ac73e1c2/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/22666bae6d7e9273efbbbbdc239878be/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/5d5e208f3c97abaee855a76e61c592ef/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2317eea4947e9c905a47ebc8cd71da23/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fea64f3158c074a4e98afb70027c7290/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/9ddae0cc5c3d2c0adabefa8c13457b93/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/481774f40431e56b721dda51fe936292/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/77381d58aa916a4b0ba9e668be152744/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bb2db2b8e1e75ad5562b11e329c6824f/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a899018359f07bb00fe4c0ce04f8dc5a/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/019972c14493530ce34bb60ff03be9ef/transformed/graphics-shapes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ee0db258a4c9fc22b783f24c3048e7cb/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/13b2b92a2edad12a0f8a732a203a0968/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/72d59fa20164ea1a586c090184bd507e/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d38c6e21ae7b83dda2cdfbaa66efa8a8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f7f560c748b03db544157a95926f0e77/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4ff55834e4dafe3f12394f62bafcf8a2/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ca6df1ee8549936c99a502e94f0451ce/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/1b695d88c4d04c94901dd25c795d1b42/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/6ed4fb5606e681a50d93f6a9b301ad00/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4b88d39012bdaab22f13f51cd1ca968a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/35a53bcf81b9edadd28d39a5c2c421e6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/07c02734ec9241c5d5f1d206d737fbe4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d5bea1562358106ecc64e2781a8436a3/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ee7e4b0b4c6bb52b73965c003dfbbe72/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c04250490561a4858bd4791465c18156/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/eb938ddced8b190afc3de26996033ea4/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f5cb819d8fbafc96d3f6f078cf862694/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/69aa770be096b97c6690745d0f77a9a7/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/827beead2fb547df8e148967ddca15b6/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fa550aea36bca3e0dbded93b6a3fdb6b/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/choemyeong-il/.gradle/caches/8.13/transforms/88be768902384cd44787f1a29808a3a0/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.11.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/acfb4c2be2f14aed09ec7af18c021bfe/transformed/activity-1.11.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/28d41a163b5f4224b10e2369bbcbcbd7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a83d6a8a18bc60f8c89bd580f67869a3/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/841e124c9f6b52c3f6c441f77197598a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4f76439917019c1062e824103f27787a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/386089a05dcc03cf05245389fe1442f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/95b8bc35d29875ba5d365eb94b65d788/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/dbe218d521c25f6211cab029a461190f/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/67e097ecc9ed8170f6e65fa9773c59c6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57d81306259289ec65b190ae3babb1f5/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/350ee786ee1c60c74b9e90fdd63ebae5/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/847d17385a29b3610bd0c8c488ad18b3/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/8f812133ec5547de1ab4d279da8cde02/transformed/grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a54ca2daf993a5cf38599b86b256675c/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:5:5-26:19
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.google.android.material:material:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/497d9274f546012ce2969c9c9f4138fc/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/497d9274f546012ce2969c9c9f4138fc/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bf1ec0d70503d5b678c0bcc3b54f6533/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bf1ec0d70503d5b678c0bcc3b54f6533/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fea64f3158c074a4e98afb70027c7290/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fea64f3158c074a4e98afb70027c7290/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/9ddae0cc5c3d2c0adabefa8c13457b93/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/9ddae0cc5c3d2c0adabefa8c13457b93/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/481774f40431e56b721dda51fe936292/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/481774f40431e56b721dda51fe936292/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bb2db2b8e1e75ad5562b11e329c6824f/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bb2db2b8e1e75ad5562b11e329c6824f/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fa550aea36bca3e0dbded93b6a3fdb6b/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fa550aea36bca3e0dbded93b6a3fdb6b/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/386089a05dcc03cf05245389fe1442f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/386089a05dcc03cf05245389fe1442f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:13:9-43
+	android:dataExtractionRules
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.example.lonin.SignupActivity
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:15:13-43
+activity#com.example.lonin.LoginActivity
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:18:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/497d9274f546012ce2969c9c9f4138fc/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/497d9274f546012ce2969c9c9f4138fc/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bf1ec0d70503d5b678c0bcc3b54f6533/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bf1ec0d70503d5b678c0bcc3b54f6533/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f93348c56cd68e9ba1bc6c81e6e772be/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f93348c56cd68e9ba1bc6c81e6e772be/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b327039788e90512e871c573ac73e1c2/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b327039788e90512e871c573ac73e1c2/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/22666bae6d7e9273efbbbbdc239878be/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/22666bae6d7e9273efbbbbdc239878be/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/5d5e208f3c97abaee855a76e61c592ef/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/5d5e208f3c97abaee855a76e61c592ef/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2317eea4947e9c905a47ebc8cd71da23/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2317eea4947e9c905a47ebc8cd71da23/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fea64f3158c074a4e98afb70027c7290/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fea64f3158c074a4e98afb70027c7290/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/9ddae0cc5c3d2c0adabefa8c13457b93/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/9ddae0cc5c3d2c0adabefa8c13457b93/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/481774f40431e56b721dda51fe936292/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/481774f40431e56b721dda51fe936292/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/77381d58aa916a4b0ba9e668be152744/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/77381d58aa916a4b0ba9e668be152744/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bb2db2b8e1e75ad5562b11e329c6824f/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/bb2db2b8e1e75ad5562b11e329c6824f/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a899018359f07bb00fe4c0ce04f8dc5a/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a899018359f07bb00fe4c0ce04f8dc5a/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/019972c14493530ce34bb60ff03be9ef/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/019972c14493530ce34bb60ff03be9ef/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ee0db258a4c9fc22b783f24c3048e7cb/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ee0db258a4c9fc22b783f24c3048e7cb/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/13b2b92a2edad12a0f8a732a203a0968/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/13b2b92a2edad12a0f8a732a203a0968/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/72d59fa20164ea1a586c090184bd507e/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/72d59fa20164ea1a586c090184bd507e/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d38c6e21ae7b83dda2cdfbaa66efa8a8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d38c6e21ae7b83dda2cdfbaa66efa8a8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f7f560c748b03db544157a95926f0e77/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f7f560c748b03db544157a95926f0e77/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4ff55834e4dafe3f12394f62bafcf8a2/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4ff55834e4dafe3f12394f62bafcf8a2/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ca6df1ee8549936c99a502e94f0451ce/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ca6df1ee8549936c99a502e94f0451ce/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/1b695d88c4d04c94901dd25c795d1b42/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/1b695d88c4d04c94901dd25c795d1b42/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/6ed4fb5606e681a50d93f6a9b301ad00/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/6ed4fb5606e681a50d93f6a9b301ad00/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4b88d39012bdaab22f13f51cd1ca968a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4b88d39012bdaab22f13f51cd1ca968a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/35a53bcf81b9edadd28d39a5c2c421e6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/35a53bcf81b9edadd28d39a5c2c421e6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/07c02734ec9241c5d5f1d206d737fbe4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/07c02734ec9241c5d5f1d206d737fbe4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d5bea1562358106ecc64e2781a8436a3/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d5bea1562358106ecc64e2781a8436a3/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ee7e4b0b4c6bb52b73965c003dfbbe72/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/ee7e4b0b4c6bb52b73965c003dfbbe72/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c04250490561a4858bd4791465c18156/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c04250490561a4858bd4791465c18156/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/eb938ddced8b190afc3de26996033ea4/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/eb938ddced8b190afc3de26996033ea4/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f5cb819d8fbafc96d3f6f078cf862694/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f5cb819d8fbafc96d3f6f078cf862694/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/69aa770be096b97c6690745d0f77a9a7/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/69aa770be096b97c6690745d0f77a9a7/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/827beead2fb547df8e148967ddca15b6/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/827beead2fb547df8e148967ddca15b6/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fa550aea36bca3e0dbded93b6a3fdb6b/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/fa550aea36bca3e0dbded93b6a3fdb6b/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/choemyeong-il/.gradle/caches/8.13/transforms/88be768902384cd44787f1a29808a3a0/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/choemyeong-il/.gradle/caches/8.13/transforms/88be768902384cd44787f1a29808a3a0/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.11.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/acfb4c2be2f14aed09ec7af18c021bfe/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/acfb4c2be2f14aed09ec7af18c021bfe/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/28d41a163b5f4224b10e2369bbcbcbd7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/28d41a163b5f4224b10e2369bbcbcbd7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a83d6a8a18bc60f8c89bd580f67869a3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a83d6a8a18bc60f8c89bd580f67869a3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/841e124c9f6b52c3f6c441f77197598a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/841e124c9f6b52c3f6c441f77197598a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4f76439917019c1062e824103f27787a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/4f76439917019c1062e824103f27787a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/386089a05dcc03cf05245389fe1442f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/386089a05dcc03cf05245389fe1442f8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/95b8bc35d29875ba5d365eb94b65d788/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/95b8bc35d29875ba5d365eb94b65d788/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/dbe218d521c25f6211cab029a461190f/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/dbe218d521c25f6211cab029a461190f/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/67e097ecc9ed8170f6e65fa9773c59c6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/67e097ecc9ed8170f6e65fa9773c59c6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57d81306259289ec65b190ae3babb1f5/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57d81306259289ec65b190ae3babb1f5/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/350ee786ee1c60c74b9e90fdd63ebae5/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/350ee786ee1c60c74b9e90fdd63ebae5/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/847d17385a29b3610bd0c8c488ad18b3/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/847d17385a29b3610bd0c8c488ad18b3/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/8f812133ec5547de1ab4d279da8cde02/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/8f812133ec5547de1ab4d279da8cde02/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a54ca2daf993a5cf38599b86b256675c/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/a54ca2daf993a5cf38599b86b256675c/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/choemyeong-il/Desktop/UserInterface/TeamProject/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/8f812133ec5547de1ab4d279da8cde02/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/8f812133ec5547de1ab4d279da8cde02/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/2d877a2227f572a5d556167a8403a86e/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/10c620be87278c5928f920618a33bd19/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/choemyeong-il/.gradle/caches/8.13/transforms/0ab4b4a64c0bab769dc496ba1866ed59/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/aec2fad2407f0575c800f379d74c5849/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/90807c33308b663c8528cb213bea6e01/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/3b715ce3e0f4b7e74f5079cee1c17354/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/230160b290d37e900a1f77d28983f3b5/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c62bca1843b646d9f13d21919122b758/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choemyeong-il/.gradle/caches/8.13/transforms/57017d865696e4ae3bf9d04ac0cc8514/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/e8b18d6608f1a03fd43020c84b89b88c/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.lonin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.lonin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/43bc92bd0898b793c008824ada13e2d7/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choemyeong-il/.gradle/caches/8.13/transforms/b30cda7cede5830aa7353823098aece8/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/c4b1e8a3f0523ba0f78cc1cf57b83f1a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/choemyeong-il/.gradle/caches/8.13/transforms/f1a8b6ec331acda21ee52a87a1cde695/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/choemyeong-il/.gradle/caches/8.13/transforms/d28d86767d3985d22079091402d11929/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93

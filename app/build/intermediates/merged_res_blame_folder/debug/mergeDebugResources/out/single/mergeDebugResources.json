@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_button_primary_disabled.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/button_primary_disabled.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_checkbox_custom.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/checkbox_custom.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_button_kakao.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/button_kakao.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_gradient_background.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/gradient_background.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_tab_background.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/tab_background.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_baseline_check_box_24.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/baseline_check_box_24.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_ic_school.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/ic_school.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.lonin.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_ic_kakao.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/ic_kakao.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_tab_selected.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/tab_selected.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_icon_container_bg.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/icon_container_bg.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/layout_activity_login.xml.flat",
+        "source": "com.example.lonin.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/xml_backup_rules.xml.flat",
+        "source": "com.example.lonin.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/layout_activity_signup.xml.flat",
+        "source": "com.example.lonin.app-main-45:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/drawable_input_background.xml.flat",
+        "source": "com.example.lonin.app-main-45:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.example.lonin.app-debug-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lonin.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

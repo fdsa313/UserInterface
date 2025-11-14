@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#1A000000</color>
+    <color name="input_background">#F3F3F5</color>
+    <color name="kakao_yellow">#FEE500</color>
+    <color name="primary_blue">#155DFC</color>
+    <color name="tab_background">#ECECF0</color>
+    <color name="text_hint">#717182</color>
+    <color name="text_primary">#101828</color>
+    <color name="text_quaternary">#364153</color>
+    <color name="text_secondary">#4A5565</color>
+    <color name="text_tertiary">#6A7282</color>
+    <string name="app_name">숭실대 앱</string>
+    <string name="auto_login">자동 로그인</string>
+    <string name="benefit_subtitle">숭실인을 위한 특별한 제휴 혜택</string>
+    <string name="benefit_title">숭실대 할인 혜택</string>
+    <string name="btn_kakao_login">카카오톡으로 시작하기</string>
+    <string name="btn_login">로그인</string>
+    <string name="divider_or">또는</string>
+    <string name="gcm_defaultSenderId" translatable="false">111716822708</string>
+    <string name="google_api_key" translatable="false">AIzaSyAN3sLdu1YtXyTnP-0KAHu0dFbD95Boeaw</string>
+    <string name="google_app_id" translatable="false">1:111716822708:android:9235522adaae6ee7c371e1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAN3sLdu1YtXyTnP-0KAHu0dFbD95Boeaw</string>
+    <string name="google_storage_bucket" translatable="false">userinterface-c864d.firebasestorage.app</string>
+    <string name="hint_password">비밀번호를 입력하세요</string>
+    <string name="hint_username">아이디를 입력하세요</string>
+    <string name="label_password">비밀번호</string>
+    <string name="label_username">아이디</string>
+    <string name="project_id" translatable="false">userinterface-c864d</string>
+    <string name="school_icon">학교 아이콘</string>
+    <string name="tab_login">로그인</string>
+    <string name="tab_signup">회원가입</string>
+    <string name="terms_line1">로그인하시면 서비스 이용약관 및</string>
+    <string name="terms_line2">개인정보 처리방침에 동의하게 됩니다</string>
+    <style name="Base.Theme.Lonin" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Lonin" parent="Base.Theme.Lonin"/>
+</resources>
