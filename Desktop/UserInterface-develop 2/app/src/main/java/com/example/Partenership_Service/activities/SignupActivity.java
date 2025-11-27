@@ -134,11 +134,15 @@ public class SignupActivity extends AppCompatActivity {
         String userId = mAuth.getCurrentUser().getUid();
 
         Map<String, Object> user = new HashMap<>();
-        user.put("userId", userId);
         user.put("id", id);
-        user.put("email", email);
-        user.put("createdAt", com.google.firebase.Timestamp.now());
-        user.put("college", ""); // Will be set later in CollegeSelectionActivity
+        user.put("passwd", ""); // Firebase Auth handles password, leaving empty
+        user.put("uSaint", ""); // Will be set when user verifies with U-SAINT
+        user.put("isManager", false);
+        user.put("isPartner", false);
+        user.put("coupon", new java.util.ArrayList<>()); // Empty array for coupons
+        user.put("points", 0); // Initial points
+        user.put("favorites", new java.util.ArrayList<>()); // Empty array for favorites
+        user.put("history", new java.util.ArrayList<>()); // Empty array for history
 
         // Save to Firestore in background (non-blocking)
         db.collection("users").document(userId)
@@ -331,11 +335,15 @@ public class SignupActivity extends AppCompatActivity {
                         // New user - create Firestore document
                         Map<String, Object> user = new HashMap<>();
                         user.put("kakaoId", kakaoId);
-                        user.put("email", email);
                         user.put("id", nickname);
-                        user.put("createdAt", com.google.firebase.Timestamp.now());
-                        user.put("college", "");
-                        user.put("loginType", "kakao");
+                        user.put("passwd", ""); // Kakao login doesn't use password
+                        user.put("uSaint", ""); // Will be set when user verifies with U-SAINT
+                        user.put("isManager", false);
+                        user.put("isPartner", false);
+                        user.put("coupon", new java.util.ArrayList<>()); // Empty array for coupons
+                        user.put("points", 0); // Initial points
+                        user.put("favorites", new java.util.ArrayList<>()); // Empty array for favorites
+                        user.put("history", new java.util.ArrayList<>()); // Empty array for history
 
                         // Save to Firestore
                         String userId = "kakao_" + kakaoId;

@@ -182,6 +182,18 @@ public class UsaintVerificationFragment extends Fragment {
         editor.putString("student_department", department);
         editor.putString("student_number", studentNumber);
         editor.apply();
+
+        // Update Firestore with uSaint ID
+        com.google.firebase.firestore.FirebaseFirestore db =
+            com.google.firebase.firestore.FirebaseFirestore.getInstance();
+        db.collection("users").document(userId)
+                .update("uSaint", studentNumber)
+                .addOnSuccessListener(aVoid -> {
+                    Log.d(TAG, "uSaint field updated successfully");
+                })
+                .addOnFailureListener(e -> {
+                    Log.e(TAG, "Failed to update uSaint field", e);
+                });
     }
 
     private void showError(String title, String message) {
