@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kakao Yellow -->
+    <color name="kakao_yellow">#FEE500</color>
+    <color name="kakao_yellow_pressed">#FDD835</color>
+
+    <!-- Primary Theme Colors -->
+    <color name="primary_blue">#2563eb</color>
+    <color name="primary_blue_dark">#1d4ed8</color>
+    <color name="button_blue_start">#A5C5FF</color>
+    <color name="button_blue_end">#6C8CFF</color>
+    <color name="tab_container_gray">#ECECF4</color>
+
+    <!-- Status Colors -->
+    <color name="warning_orange">#f97316</color>
+    <color name="success_green">#22c55e</color>
+    <color name="error_red">#ef4444</color>
+
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#f3f3f5</color>
+    <color name="muted_gray">#ececf0</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#030213</color>
+    <color name="text_secondary">#717182</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Border Colors -->
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_dark">#CCCCCC</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Card Background -->
+    <color name="card_background">#FFFFFF</color>
+</resources>
